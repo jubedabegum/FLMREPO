@@ -1,0 +1,7 @@
+find . -name file : used to find a file in current directory
+find /proc/ -name filename : used to find a file in proc directory
+find . -type d -name folder : used to find a folder in current directory
+find . -type f -name <file1.txt> : used to find a file in current directory
+find . -type f -perm 777 : Finds all the files whose permissions are 777 in the current directory 
+find . -type f ! -perm 777 : Finds all the files whose permissions are NOT 777 in the current directory
+
